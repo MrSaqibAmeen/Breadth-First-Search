@@ -1,7 +1,8 @@
-# 🙌Breadth First Search Algorithm Implementation
+## Breadth First Search Algorithm
+
 Implementation of breadth first search algorithm on binary tree in C++. It makes use of the queue to implement the algorithm. It was a lab task. The primary purpose was implementation of Breadth First Search Algorithm. It returns the path of the tree to be traversed in breadth first manner, in order to reach the desired key.
 
-# 🎋 Binary Tree
+## Binary Tree
 Binary makes use of the following structure:
 
 ```
@@ -31,7 +32,8 @@ For this project, I have hard coded the values of the tree.
   ```
   It can be extended to take input in any desired way.
   
-  # 🍹 Breadth First Search Algorithm
+  ## Breadth First Search Algorithm
+  
   Breadth First Search Algorithm first of all pushes the root node into stack and then recursively performs the following steps until queue is not empty.
   1. Pop the first item of queue
   1. Checks if the value node is equal to required key (If yes, stops. Else prints and move on to step 2).
